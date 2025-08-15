@@ -1,6 +1,4 @@
 return {
-	sync_root_with_cwd = false,
-	respect_buf_cwd = false,
 	filters = {
 		enable = false,
 	},
