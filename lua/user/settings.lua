@@ -36,10 +36,6 @@ settings["disabled_plugins"] = {
 	-- editor
 	"pteroctopus/faster.nvim",
 	"ojroques/nvim-bufdel",
-	"folke/flash.nvim",
-	"numToStr/Comment.nvim",
-	"echasnovski/mini.align",
-	"echasnovski/mini.cursorword",
 	-- tool
 	"ibhagwan/smartyank.nvim",
 	-- ui
