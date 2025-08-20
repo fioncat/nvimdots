@@ -46,6 +46,7 @@ settings["disabled_plugins"] = {
 
 settings["formatter_block_list"] = {
 	json = true,
+	yaml = true,
 }
 
 return settings
