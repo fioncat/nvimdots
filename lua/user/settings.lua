@@ -28,8 +28,6 @@ settings["dashboard_image"] = {
 	[[⠀⠀⠀⠀⠀⠀⠈⠙⠒⠒⠶⠒⠒⠒⠈⠉⠉⠉⠉⠉⠉⠒⠒⠪⠷⠒⠛⠊⠉⠀⠠⠄⠀⠤⣌⠛⠳⠦⠤⠴⠒⠁⠀⠀⠀ ]],
 }
 
-settings["format_notify"] = false
-
 settings["disabled_plugins"] = {
 	"hiphish/rainbow-delimiters.nvim",
 	"dstein64/nvim-scrollview",
@@ -44,10 +42,12 @@ settings["disabled_plugins"] = {
 	"folke/trouble.nvim",
 }
 
-settings["formatter_block_list"] = {
-	json = true,
-	yaml = true,
-	sh = true,
-}
+settings["format_notify"] = false
+
+settings["format_modifications_only"] = false
+
+settings["formatter_block_list"] = {}
+
+settings["transparent_background"] = true
 
 return settings
