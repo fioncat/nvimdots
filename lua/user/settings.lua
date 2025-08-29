@@ -37,7 +37,6 @@ settings["disabled_plugins"] = {
 	-- tool
 	"ibhagwan/smartyank.nvim",
 	-- ui
-	"karb94/neoscroll.nvim",
 	"folke/edgy.nvim",
 	"folke/trouble.nvim",
 }
