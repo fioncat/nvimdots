@@ -36,7 +36,7 @@ return {
 		:with_silent()
 		:with_desc("buffer: delete all unused buffers"),
 
-	["n|ZZ"] = map_cr("quitall!"):with_noremap():with_silent():with_desc("editor: force QUIT editor"),
+	["n|XX"] = map_cr("quitall!"):with_noremap():with_silent():with_desc("editor: force QUIT editor"),
 
 	-- View diff for two files(buffers)
 	["n|<leader>wd"] = map_cr("windo diffthis")
