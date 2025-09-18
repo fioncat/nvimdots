@@ -6,6 +6,12 @@ local map_callback = bind.map_callback
 local et = bind.escape_termcode
 
 return {
+	["nv|<leader>w"] = "",
+	["nv|<leader>j"] = "",
+	["nv|<leader>k"] = "",
+	["nv|<leader>c"] = "",
+	["nv|<leader>C"] = "",
+
 	-- Plugin: nvim-bufdel
 	["n|<A-q>"] = map_cr("BufDel"):with_noremap():with_silent():with_desc("buffer: Close current"),
 
