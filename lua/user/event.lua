@@ -21,22 +21,6 @@ local definitions = {
 		{ "FileType", "yaml", "setlocal tabstop=2" },
 		{ "FileType", "yaml", "setlocal shiftwidth=2" },
 		{ "FileType", "yaml", "setlocal expandtab" },
-
-		{ "FileType", "css", "setlocal tabstop=4" },
-		{ "FileType", "css", "setlocal shiftwidth=4" },
-		{ "FileType", "css", "setlocal expandtab" },
-
-		{ "FileType", "toml", "setlocal tabstop=4" },
-		{ "FileType", "toml", "setlocal shiftwidth=4" },
-		{ "FileType", "toml", "setlocal expandtab" },
-
-		{ "FileType", "sh", "setlocal tabstop=2" },
-		{ "FileType", "sh", "setlocal shiftwidth=2" },
-		{ "FileType", "sh", "setlocal expandtab" },
-
-		{ "FileType", "zsh", "setlocal tabstop=2" },
-		{ "FileType", "zsh", "setlocal shiftwidth=2" },
-		{ "FileType", "zsh", "setlocal expandtab" },
 	},
 }
 
