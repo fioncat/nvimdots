@@ -36,6 +36,7 @@ settings["disabled_plugins"] = {
 	"ojroques/nvim-bufdel",
 	-- tool
 	"ibhagwan/smartyank.nvim",
+	"DrKJeff16/project.nvim",
 	-- ui
 	"folke/edgy.nvim",
 	"folke/trouble.nvim",
