@@ -21,7 +21,7 @@ return function()
 			path_display = { "absolute" },
 			selection_strategy = "reset",
 			color_devicons = true,
-			file_ignore_patterns = { ".git/", ".cache", "build/", "%.class", "%.pdf", "%.mkv", "%.mp4", "%.zip" },
+			file_ignore_patterns = { ".git/", ".cache", "%.class", "%.pdf", "%.mkv", "%.mp4", "%.zip" },
 			layout_config = {
 				horizontal = {
 					preview_width = 0.55,
@@ -83,7 +83,7 @@ return function()
 	require("telescope").load_extension("fzf")
 	require("telescope").load_extension("live_grep_args")
 	require("telescope").load_extension("notify")
-	require("telescope").load_extension("projects")
+	-- require("telescope").load_extension("projects")
 	require("telescope").load_extension("undo")
 	require("telescope").load_extension("zoxide")
 	require("telescope").load_extension("persisted")

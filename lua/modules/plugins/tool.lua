@@ -112,11 +112,6 @@ tool["nvim-telescope/telescope.nvim"] = {
 			config = require("tool.search"),
 		},
 		{
-			"DrKJeff16/project.nvim",
-			event = { "CursorHold", "CursorHoldI" },
-			config = require("tool.project"),
-		},
-		{
 			"aaronhallaert/advanced-git-search.nvim",
 			cmd = { "AdvancedGitSearch" },
 			dependencies = {
